@@ -1,8 +1,0 @@
-[
-{
-  "directory": "F:/Robomaster/Kalman_Filter/build",
-  "command": "F:\\Study\\CLionToolchains\\mingw64\\bin\\g++.exe  @CMakeFiles/kalman_test.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -O3 -o CMakeFiles\\kalman_test.dir\\KalmanFilter.cc.obj -c F:\\Robomaster\\Kalman_Filter\\KalmanFilter.cc",
-  "file": "F:/Robomaster/Kalman_Filter/KalmanFilter.cc",
-  "output": "CMakeFiles/kalman_test.dir/KalmanFilter.cc.obj"
-}
-]

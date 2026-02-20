@@ -1,3 +1,0 @@
-F:/Robomaster/Kalman_Filter/build/CMakeFiles/kalman_test.dir
-F:/Robomaster/Kalman_Filter/build/CMakeFiles/edit_cache.dir
-F:/Robomaster/Kalman_Filter/build/CMakeFiles/rebuild_cache.dir
