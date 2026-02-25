@@ -12,6 +12,9 @@
 namespace math {
     template <int row, int col>
     class matrix {
+         template<int r, int c>
+    friend class matrix;
+
         static constexpr float eps = 1e-4;
     public:
         matrix() = default;
@@ -304,6 +307,16 @@ namespace math {
             ret.data.fill(1);
             return ret;
         }
+        static matrix identity() {
+            matrix ret;
+            for (int i = 0; i < row; ++i) {
+                for (int j = 0; j < col; ++j) {
+                    ret.data[i * col + j] = (i == j) ? 1.0f : 0.0f;
+                }
+            }
+            return ret;
+        }
+        
     protected:
         std::array <float, row * col> data;
     };
