@@ -12,6 +12,7 @@ include_directories(include)
 
 # 添加可执行文件
 add_executable(kalman_test
+main.cc
 KalmanFilter.cc
 )
 
@@ -19,5 +20,5 @@ KalmanFilter.cc
 target_compile_options(kalman_test PRIVATE
     -Wall
     -Wextra
-    -O3
+    -O1
 )

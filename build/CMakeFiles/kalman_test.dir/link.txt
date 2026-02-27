@@ -1,0 +1,3 @@
+C:\Users\Administrator\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe -E rm -f CMakeFiles\kalman_test.dir/objects.a
+D:\ToolChain\mingw64\bin\ar.exe qc CMakeFiles\kalman_test.dir/objects.a @CMakeFiles\kalman_test.dir\objects1.rsp
+D:\ToolChain\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\kalman_test.dir/objects.a -Wl,--no-whole-archive -o kalman_test.exe -Wl,--out-implib,libkalman_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kalman_test.dir\linkLibs.rsp
