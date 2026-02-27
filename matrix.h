@@ -307,15 +307,6 @@ namespace math {
             ret.data.fill(1);
             return ret;
         }
-        static matrix identity() {
-            matrix ret;
-            for (int i = 0; i < row; ++i) {
-                for (int j = 0; j < col; ++j) {
-                    ret.data[i * col + j] = (i == j) ? 1.0f : 0.0f;
-                }
-            }
-            return ret;
-        }
         
     protected:
         std::array <float, row * col> data;

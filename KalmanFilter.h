@@ -11,7 +11,7 @@ math::matrix<2,2>Q;//过程噪声协方差矩阵
 math::matrix<1,1>R;//测量噪声协方差矩阵
 math::matrix<1,2>H = {1,0};//状态观测矩阵
 math::matrix<1,1>z;//观测值
-float kf_out;//输出值
+math::matrix<2,1>kf_out;//输出值
 void Kalman_init(Kalman_Filter*kf);
 void Kalman_update(math::matrix<1,1> z);
 };     

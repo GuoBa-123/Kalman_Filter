@@ -21,7 +21,7 @@ int main() {
        float obversation[10] = {0.0, 0.9, 2.1, 3.05, 3.95, 5.02, 5.98, 7.03, 7.97, 9.01};
     for(int i=0;i<10;i++){
         kf.Kalman_update(math::matrix<1,1>(obversation[i]));
-        cout<<"observation: "<<obversation[i]<<"  kalman output_1: "<<kf.kf_out<<"   kalman output_2: "<<kf.X(1,0)<<endl;
+        cout<<"observation: "<<obversation[i]<<"  kalman output_1: "<<kf.kf_out(0,0)<<"   kalman output_2: "<<kf.kf_out(1,0)<<endl;
     }
     return 0;
 }
