@@ -13,7 +13,6 @@ include_directories(include)
 # 添加可执行文件
 add_executable(kalman_test
 main.cc
-KalmanFilter.cc
 )
 
 # 编译优化（可选）
