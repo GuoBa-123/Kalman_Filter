@@ -1,5 +1,7 @@
 #pragma once
 #include "matrix.h"
+//@todo:增加非线性函数接口，尝试向EKF拓展
+
 //M:状态量维度，N:观测量维度
 template<int M, int N>
 class Kalman_Filter{
